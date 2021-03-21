@@ -1,0 +1,86 @@
+/*th{*/
+/*    text-align: center;*/
+/*}*/
+
+td{
+    text-align: center;
+}
+
+#top-panel{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: pink;
+}
+
+#page-title{
+    font-size: 50px;
+    font-family: "Songti SC";
+    left: 5%;
+    bottom: 0px;
+
+    position: absolute;
+}
+
+#mid-panel{
+    left: 0;
+    top: 17%;
+    width: 100%;
+    height: 78%;
+    background-color: lightblue;
+}
+
+#register-panel{
+    margin-top: 2%;
+    margin-left: 35%;
+    width: 30%;
+    height: 92%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+
+#register-table-panel{
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 80%;
+    width: 80%;
+    position: center;
+}
+
+#register-panel{
+    position: absolute;
+}
+
+.error-msg-row{
+    height: 10px;
+    font-size: 5px;
+    color: red;
+}
+
+.register-info-row{
+    height: 45px;
+}
+
+#register-info-form{
+    position: center;
+}
+
+#register-info-table{
+    width: 100%;
+}
+
+#register-info-title{
+    font-size: 25px;
+}
+
+#login-link{
+    font-size: 10px;
+    height: 60px;
+}
+
+
+.area{
+    position: absolute;
+}

@@ -28,22 +28,27 @@
                 <table id="register-info-table">
                     <tr><td colspan="2" id="register-info-title">马上注册</td></tr>
                     <tr class="register-info-row">
-                        <td>手机号:</td>
+                        <td class="register-info-name">手机号:</td>
                         <td><input id="userTel" type="text" class="register-info-text" placeholder="请输入11位手机号码"></td>
                     </tr>
                     <tr class="error-msg-row"><td></td><td id="tel-error-msg"></td></tr>
                     <tr class="register-info-row">
-                        <td>密码:</td>
+                        <td class="register-info-name">账户名:</td>
+                        <td><input id="userName" type="text" class="register-info-text" placeholder="请输入6-16位字符"></td>
+                    </tr>
+                    <tr class="error-msg-row"><td></td><td id="username-error-msg"></td></tr>
+                    <tr class="register-info-row">
+                        <td class="register-info-name">密码:</td>
                         <td><input id="password" type="password" class="register-info-text" placeholder="请输入8-16位密码"></td>
                     </tr>
                     <tr class="error-msg-row"><td></td><td id="password-error-msg"></td></tr>
                     <tr class="register-info-row">
-                        <td>确认密码:</td>
+                        <td class="register-info-name">确认密码:</td>
                         <td><input id="passwordConfrim" type="password" class="register-info-text" placeholder="请再次输入密码"></td>
                     </tr>
                     <tr class="error-msg-row"><td></td><td id="passwordConfrim-error-msg"></td></tr>
                     <tr class="register-info-row">
-                        <td>验证码：</td>
+                        <td class="register-info-name">验证码:</td>
                         <td><input id="identify" type="text" class="register-info-text" placeholder="请输入验证码"></td>
                     </tr>
                     <tr class="error-msg-row"><td></td><td id="identify-error-msg"></td></tr>

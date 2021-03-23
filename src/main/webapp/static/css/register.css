@@ -1,9 +1,9 @@
-/*th{*/
-/*    text-align: center;*/
-/*}*/
-
 td{
     text-align: center;
+}
+
+.register-info-name{
+    text-align: right;
 }
 
 #top-panel{
